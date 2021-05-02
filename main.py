@@ -7,6 +7,7 @@ import math
 speed = 0.3
 h = 300
 w = 400
+which_cam = 1
 
 def returnCameraIndexes():
     # checks the first 10 indexes.
@@ -23,8 +24,7 @@ def returnCameraIndexes():
     return arr
 
 print(returnCameraIndexes())
-cap = cv2.VideoCapture(0)
-
+cap = cv2.VideoCapture(which_cam)
 x = 0
 y = 0
 index = 0
