@@ -23,7 +23,7 @@ def returnCameraIndexes():
     return arr
 
 print(returnCameraIndexes())
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 x = 0
 y = 0
